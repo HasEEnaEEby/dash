@@ -11,22 +11,17 @@ export default [
     },
     {
         to: '/profile',
-        name: 'Profile',
+        name: 'Post Packages',
         Icon: BiUserCircle
     },
     {
         to: '/dashboard',
-        name: 'Dashboard',
+        name: 'Post Blogs',
         Icon: BsSpeedometer2
     },
     {
         to: '/test-components',
-        name: 'Test Components',
+        name: 'Clients',
         Icon: IoGridOutline
     },
-    {
-        to: '/statistics',
-        name: 'Statistics',
-        Icon: AiOutlineBarChart
-    }
 ];

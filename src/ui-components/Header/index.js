@@ -77,17 +77,17 @@ const Header = ({ toggleSidebarMenu }) => {
           </li>
           <li>
             <Link href={'/'}>
-              Dashboard
+              Home
             </Link>
           </li>
           <li>
             <Link href={'/'}>
-              Users
+              Packages
             </Link>
           </li>
           <li>
             <Link href={'/'}>
-              Settings
+              Blogs
             </Link>
           </li>
         </ul>
@@ -110,7 +110,7 @@ const Header = ({ toggleSidebarMenu }) => {
             </DropdownMenu>
           </li>
 
-          <li>
+          {/* <li>
             <DropdownMenu 
               CustomMenu={NotificationsIcon} 
               count={4}
@@ -145,7 +145,7 @@ const Header = ({ toggleSidebarMenu }) => {
                 
               </div>
             </DropdownMenu>
-          </li>
+          </li> */}
 
           <li>
             {/* User Dropdown Menu */}

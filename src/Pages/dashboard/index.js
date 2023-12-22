@@ -35,8 +35,8 @@ export default function Dashboard() {
   return (
     <>
       <HeaderSection
-        heading={"Dashboard"}
-        subHeading={"Welcome to aio dashboard"}
+        heading={"Admins Workspace"}
+        subHeading={"Your Hardwork, your visiual"}
         rightItem={() => (
           <ActionButton
             onClick={() => setModal(true)}
@@ -46,7 +46,7 @@ export default function Dashboard() {
         )}
       />
 
-      <Section>
+      {/* <Section>
         <DataCard
           label={"Total Revenue"}
           value={"23,34,450"}
@@ -63,9 +63,9 @@ export default function Dashboard() {
           value={"43,54,111"}
           percentageValue={10.89}
         />
-      </Section>
+      </Section> */}
 
-      <Section>
+      {/* <Section>
         <Card
           heading="Bar Chart Example"
           subHeading="Lets see how data is ploting on chartjs"
@@ -85,9 +85,9 @@ export default function Dashboard() {
             <DoughnutChartExample />
           </div>
         </Card>
-      </Section>
+      </Section> */}
 
-      <Section>
+      {/* <Section>
         <Card
           heading="Basic Plan"
           subHeading="Our most popular plan for small teams."
@@ -135,9 +135,9 @@ export default function Dashboard() {
             <Paragraph />
           </div>
         </Card>
-      </Section>
+      </Section> */}
 
-      <BillingHistory />
+      {/* <BillingHistory />
 
       <Modal
         isOpen={modal}
@@ -148,8 +148,10 @@ export default function Dashboard() {
         onCancel={handleCancel}
         onSubmit={handleSubmit}
       >
-        <p>Welcome to aio dashboard</p>
-      </Modal>
+        <p>Admin WorkSpace</p>
+      </Modal> */}
+
+      <p> <h1> Here you can make changes </h1></p>
     </>
   );
 }

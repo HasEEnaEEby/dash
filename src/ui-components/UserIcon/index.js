@@ -8,7 +8,7 @@ const UserIcon = ({
     return (
         <div onClick={onClick} className={styles.container}>
             <Image 
-                src={`/user-pic.jpeg`}
+                src={`/TextToImage_16 20231212.png`}
                 width={'40'}
                 height={'40'}
             />

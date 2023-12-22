@@ -4,21 +4,23 @@
 .login-container{
     width: 800px;
     min-height: 400px;
-    background: #fff;
+    background: rgb(126, 165, 153);
     margin: 100px auto;
     display: flex;
+    border-radius: 10%;
 }
 
 .brand-container{
     width: 50%;
     min-height: 100%;
-    background: #606060;
+    background: rgb(11, 75, 54);
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
+    border-radius:10%;
 
 }
 

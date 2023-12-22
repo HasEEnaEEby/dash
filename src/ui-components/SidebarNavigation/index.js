@@ -21,7 +21,7 @@ const SidebarNavigation = ({
       </button>
       <div className={styles['logo-container']}>
         <Logo />
-        <div className={styles['logo-explain']}>AIO Dashboard</div>
+        <div className={styles['logo-explain']}>Admin (name) Workspace</div>
       </div>
       <ul className={styles["sidebar-container"]}>
         {routes.map((page, index) => (

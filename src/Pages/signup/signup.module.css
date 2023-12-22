@@ -1,10 +1,11 @@
 .container{
 
 }
+
 .login-container{
     width: 800px;
     min-height: 400px;
-    background: #fff;
+    background: #693c3c;
     margin: 100px auto;
     display: flex;
 }
@@ -19,8 +20,8 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-
 }
+
 
 .form-container{
     width: 50%;

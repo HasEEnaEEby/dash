@@ -10,7 +10,7 @@ const Login = () => {
         <section className={styles["login-container"]}>
           <div className={styles["brand-container"]}>
             <Logo />
-            <div className={styles['logo-explain']}>AIO Dashboard</div>
+            <div className={styles['logo-explain']}>Your way towards Destiny</div>
           </div>
 
           {/* login form */}

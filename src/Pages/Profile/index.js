@@ -4,7 +4,7 @@ const Profile = (props) => {
     return (
         <>
             <HeaderSection 
-                heading={'Hello Rizwan'}
+                heading={'Admin Profile'}
                 subHeading={'Lets check your stats today!'}
             />
         </>
