@@ -17,11 +17,11 @@ const SidebarNavigation = ({
   return (
     <section className={`${styles.container} ${sidebarMenuActive ? styles['active'] : ''}`}>
       <button className={styles["sidebar-close-btn"]} onClick={toggleSidebarMenu}>
-        x
+        
       </button>
       <div className={styles['logo-container']}>
         <Logo />
-        <div className={styles['logo-explain']}>Admin (name) Workspace</div>
+        <div className={styles['logo-explain']}>Admin (name) WorkSpace</div>
       </div>
       <ul className={styles["sidebar-container"]}>
         {routes.map((page, index) => (
